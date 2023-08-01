@@ -1,4 +1,4 @@
-package org.mewebstudio.captcha.util;
+package com.mewebstudio.captcha.util;
 
 import java.security.SecureRandom;
 import java.util.Locale;

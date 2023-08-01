@@ -1,9 +1,9 @@
-package org.mewebstudio.captcha;
+package com.mewebstudio.captcha;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mewebstudio.captcha.util.RandomStringGenerator;
+import com.mewebstudio.captcha.util.RandomStringGenerator;
 
 import java.awt.*;
 

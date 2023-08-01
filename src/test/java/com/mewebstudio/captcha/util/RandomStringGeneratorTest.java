@@ -1,4 +1,4 @@
-package org.mewebstudio.captcha.util;
+package com.mewebstudio.captcha.util;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

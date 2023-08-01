@@ -1,4 +1,4 @@
-package org.mewebstudio.captcha.exception;
+package com.mewebstudio.captcha.exception;
 
 public class FontLoadException extends RuntimeException {
     public FontLoadException(String message) {

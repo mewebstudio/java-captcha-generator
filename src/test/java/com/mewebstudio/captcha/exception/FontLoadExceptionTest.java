@@ -1,4 +1,4 @@
-package org.mewebstudio.captcha.exception;
+package com.mewebstudio.captcha.exception;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

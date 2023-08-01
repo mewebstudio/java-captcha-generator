@@ -1,7 +1,7 @@
-package org.mewebstudio.captcha;
+package com.mewebstudio.captcha;
 
-import org.mewebstudio.captcha.exception.FontLoadException;
-import org.mewebstudio.captcha.util.RandomStringGenerator;
+import com.mewebstudio.captcha.exception.FontLoadException;
+import com.mewebstudio.captcha.util.RandomStringGenerator;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

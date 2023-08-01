@@ -1,4 +1,4 @@
-package org.mewebstudio.captcha;
+package com.mewebstudio.captcha;
 
 import java.awt.image.BufferedImage;
 
