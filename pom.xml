@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>Captcha</name>
+    <description>Java Captcha Generator</description>
+    <groupId>org.mewebstudio</groupId>
+    <artifactId>captcha</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <developers>
+        <developer>
+            <name>Muharrem Erin</name>
+            <email>erin.muharrem@gmail.com</email>
+            <url>https://www.mewebstudio.com</url>
+            <organization>MeWebStudio</organization>
+            <organizationUrl>https://www.mewebstudio.com</organizationUrl>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>Europe/Istanbul</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+        </license>
+    </licenses>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <junit.jupiter.version>5.10.0</junit.jupiter.version>
+        <mockito.version>5.4.0</mockito.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
