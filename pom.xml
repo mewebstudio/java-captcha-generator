@@ -6,7 +6,7 @@
     <name>Captcha</name>
     <description>Java Captcha Generator</description>
     <url>https://github.com/mewebstudio/java-captcha-generator</url>
-        <groupId>org.mewebstudio</groupId>
+    <groupId>com.mewebstudio</groupId>
     <artifactId>captcha</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
