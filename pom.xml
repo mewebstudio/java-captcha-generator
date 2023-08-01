@@ -8,7 +8,7 @@
     <url>https://github.com/mewebstudio/java-captcha-generator</url>
     <groupId>com.mewebstudio</groupId>
     <artifactId>captcha</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
 
     <developers>
         <developer>
@@ -35,6 +35,12 @@
         <connection>scm:git:git://github.com/mewebstudio/java-captcha-generator.git</connection>
         <developerConnection>scm:git:git://github.com/mewebstudio/java-captcha-generator.git</developerConnection>
     </scm>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+        </profile>
+    </profiles>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
