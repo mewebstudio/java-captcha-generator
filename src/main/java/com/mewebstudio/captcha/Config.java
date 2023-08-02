@@ -23,11 +23,7 @@ public final class Config {
 
     private int[] fontStyles = {Font.PLAIN, Font.BOLD, Font.ITALIC, Font.BOLD + Font.ITALIC};
 
-    private String[] fonts = {
-        "src/main/resources/fonts/Roboto-Regular.ttf",
-        "src/main/resources/fonts/OpenSans-Regular.ttf",
-        "src/main/resources/fonts/Lato-Regular.ttf",
-    };
+    private String[] fonts = {};
 
     public Config() {
     }
