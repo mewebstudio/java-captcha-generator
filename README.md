@@ -29,7 +29,24 @@ To use the `Captcha` class to generate captcha images, follow these steps:
    ```java
    Config customConfig = new Config();
    // Customize the configuration properties as needed
+   customConfig.setFonts(new String[]{
+      "src/main/resources/fonts/Roboto-Regular.ttf",
+      "src/main/resources/fonts/OpenSans-Regular.ttf",
+      "src/main/resources/fonts/Lato-Regular.ttf"
+   });
+   customConfig.setDark(true);
    Captcha captcha = new Captcha(customConfig);
+   ```
+
+   or
+
+   ```java
+   captcha.getConfig().setFonts(new String[]{
+       "src/main/resources/fonts/Roboto-Regular.ttf",
+       "src/main/resources/fonts/OpenSans-Regular.ttf",
+       "src/main/resources/fonts/Lato-Regular.ttf"
+   });
+   captcha.getConfig().setDark(true);
    ```
 
 2. **Generate a Captcha:**
