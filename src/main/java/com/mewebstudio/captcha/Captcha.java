@@ -49,8 +49,6 @@ public class Captcha {
      */
     public void setConfig(Config config) {
         this.config = config;
-        this.fonts = config.getFonts().length > 0 ? loadCustomFonts() :
-            GraphicsEnvironment.getLocalGraphicsEnvironment().getAllFonts();
     }
 
     /**
@@ -62,6 +60,9 @@ public class Captcha {
         if (randomStringGenerator == null) {
             randomStringGenerator = new RandomStringGenerator(config.getLength());
         }
+
+        this.fonts = config.getFonts().length > 0 ? loadCustomFonts() :
+            GraphicsEnvironment.getLocalGraphicsEnvironment().getAllFonts();
 
         String code = randomStringGenerator.next();
         BufferedImage captchaImage = new BufferedImage(config.getWidth(), config.getHeight(),
