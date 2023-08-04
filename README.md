@@ -4,7 +4,8 @@
 
 The `Captcha Generator` is a utility for generating captcha images with customizable configurations. Captchas are commonly used to prevent automated bots from accessing or submitting data on web forms. This class provides the functionality to generate captcha images with random codes, random fonts, and noise to increase security and make it challenging for bots to decipher.
 
-### Installation
+### Installatio
+#### for maven users
 Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
@@ -12,6 +13,11 @@ Add the following dependency to your `pom.xml` file:
   <artifactId>captcha</artifactId>
   <version>0.1.3</version>
 </dependency>
+```
+#### for gradle users
+Add the following dependency to your `build.gradle` file:
+```groovy
+implementation 'com.mewebstudio:captcha:0.1.3'
 ```
 
 ### How to Use
