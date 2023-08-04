@@ -4,7 +4,7 @@
 
 The `Captcha Generator` is a utility for generating captcha images with customizable configurations. Captchas are commonly used to prevent automated bots from accessing or submitting data on web forms. This class provides the functionality to generate captcha images with random codes, random fonts, and noise to increase security and make it challenging for bots to decipher.
 
-### Installatio
+### Installation
 #### for maven users
 Add the following dependency to your `pom.xml` file:
 ```xml
